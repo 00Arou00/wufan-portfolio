@@ -256,8 +256,8 @@ const CONTENT = {
       links: [
         {
           label: "Email",
-          value: "wufan.chen@email.com",
-          href: "mailto:wufan.chen@email.com",
+          value: "arouchan666@gmail.com",
+          href: "arouchan666@gmail.com",
         },
         { label: "LinkedIn", value: "Wufan Chen", href: "#" },
         { label: "Instagram", value: "@wufan.creates", href: "#" },
@@ -326,46 +326,46 @@ const CONTENT = {
       items: [
         {
           num: "01",
-          title: "\u94D9\u5C14\u5947\u8349\u8393\u9178\u5976\u5473\u9499\u8F6F\u7CD6\u65B0\u54C1\u4E0A\u5E02\u65B9\u6848",
-          subtitle: "\u54C1\u724C\u8054\u540D\u7B56\u5212",
-          cat: "\u54C1\u724C\u8054\u540D\u7B56\u5212",
+          title: "钙尔奇草莓酸奶味钙软糖新品上市方案",
+          subtitle: "品牌联名策划",
           year: "",
-          intro: "\u57FA\u4E8E\u5E74\u8F7B\u6D88\u8D39\u8005\u5BF9\u4FDD\u5065\u54C1\u63A5\u53D7\u5EA6\u4F4E\u7684\u5E02\u573A\u6D1E\u5BDF\uFF0C\u672C\u7B56\u5212\u901A\u8FC7\u8DE8\u754C\u8054\u540D\u4E0E\u573A\u666F\u8425\u9500\uFF0C\u5C06\u201C\u8865\u9499\u201D\u6253\u9020\u4E3A\u65F6\u5C1A\u751F\u6D3B\u65B9\u5F0F\uFF0C\u5E76\u4EE5\u8349\u8393\u725B\u5976\u9499\u8F6F\u7CD6\u63A8\u52A8\u94D9\u5C14\u5947\u54C1\u724C\u5E74\u8F7B\u5316\u3002",
-          desc: "\u57FA\u4E8E\u5E74\u8F7B\u6D88\u8D39\u8005\u5BF9\u4FDD\u5065\u54C1\u63A5\u53D7\u5EA6\u4F4E\u7684\u5E02\u573A\u6D1E\u5BDF\uFF0C\u672C\u7B56\u5212\u901A\u8FC7\u8DE8\u754C\u8054\u540D\u4E0E\u573A\u666F\u8425\u9500\uFF0C\u5C06\u201C\u8865\u9499\u201D\u6253\u9020\u4E3A\u65F6\u5C1A\u751F\u6D3B\u65B9\u5F0F\uFF0C\u5E76\u4EE5\u8349\u8393\u725B\u5976\u9499\u8F6F\u7CD6\u63A8\u52A8\u94D9\u5C14\u5947\u54C1\u724C\u5E74\u8F7B\u5316\u3002",
+          intro: "基于年轻消费者对保健品接受度低的市场洞察，本策划通过跨界联名与场景营销，将“补钙”打造为时尚生活方式，并以草莓牛奶钙软糖推动钙尔奇品牌年轻化。",
+          desc: "基于年轻消费者对保健品接受度低的市场洞察，本策划通过跨界联名与场景营销，将“补钙”打造为时尚生活方式，并以草莓牛奶钙软糖推动钙尔奇品牌年轻化。",
           detail: "",
           role: "",
-          tags: ["\u54C1\u724C\u8054\u540D", "\u573A\u666F\u8425\u9500", "\u54C1\u724C\u5E74\u8F7B\u5316"],
+          tags: "",
           accent: "#A3C9FF",
           sections: [
             {
-              heading: "\u6D1E\u5BDF\uFF08\u6D88\u8D39\u8005\u6D1E\u5BDF\uFF09",
-              body: "\u5E74\u8F7B\u6D88\u8D39\u8005\u5BF9\u4F20\u7EDF\u4FDD\u5065\u54C1\u7684\u63A5\u53D7\u5EA6\u8F83\u4F4E\uFF0C\u5BF9\u201C\u8865\u9499\u201D\u7684\u9700\u6C42\u8BA4\u77E5\u4E5F\u76F8\u5BF9\u6709\u9650\u3002\u4F46\u4E0E\u6B64\u540C\u65F6\uFF0C\u5E74\u8F7B\u4EBA\u8D8A\u6765\u8D8A\u5173\u6CE8\u751F\u6D3B\u65B9\u5F0F\u578B\u517B\u751F\u2014\u2014\u4ED6\u4EEC\u66F4\u613F\u610F\u901A\u8FC7\u65E5\u5E38\u751F\u6D3B\u573A\u666F\u4E2D\u7684\u8F7B\u91CF\u5316\u65B9\u5F0F\u6765\u5B9E\u73B0\u5065\u5EB7\u7BA1\u7406\u3002",
+              heading: "消费者洞察",
+              body: "年轻消费者对传统保健品的接受度较低，对“补钙”的需求认知也相对有限。但与此同时，年轻人越来越关注生活方式型养生——他们更愿意通过日常生活场景中的轻量化方式来实现健康管理。",
             },
             {
-              heading: "\u7B56\u7565\uFF08\u54C1\u724C\u7B56\u7565\uFF09",
-              body: "\u56E0\u6B64\uFF0C\u672C\u6B21\u54C1\u724C\u7B56\u7565\u4EE5\u201C\u573A\u666F\u5316\u517B\u751F\u201D\u4E3A\u6838\u5FC3\u601D\u8DEF\uFF0C\u901A\u8FC7\u8DE8\u754C\u8054\u540D\u5C06\u8865\u9499\u884C\u4E3A\u878D\u5165\u5E74\u8F7B\u4EBA\u65E5\u5E38\u751F\u6D3B\u65B9\u5F0F\u4E2D\u7684\u591A\u4E2A\u9AD8\u9891\u573A\u666F\uFF0C\u4F7F\u8865\u9499\u4ECE\u4F20\u7EDF\u5065\u5EB7\u884C\u4E3A\u8F6C\u53D8\u4E3A\u4E00\u79CD\u8F7B\u677E\u3001\u65F6\u5C1A\u4E14\u53EF\u6301\u7EED\u7684\u751F\u6D3B\u4E60\u60EF\u3002",
+              heading: "品牌策略",
+              body: "因此，本次品牌策略以“场景化养生”为核心思路，通过跨界联名将补钙行为融入年轻人日常生活方式中的多个高频场景，使补钙从传统健康行为转变为一种轻松、时尚且可持续的生活习惯**。",
             },
             {
-              heading: "\u573A\u666F\uFF08\u751F\u6D3B\u573A\u666F\u8054\u540D\uFF09",
+              heading: "生活场景联名",
               body: "",
               sub: [
                 {
-                  title: "\u5496\u5561\u573A\u666F\uFF5C\u65E5\u5E38\u63D0\u795E\u4E0E\u5DE5\u4F5C\u5B66\u4E60",
-                  body: "\u5496\u5561\u662F\u5E74\u8F7B\u4EBA\u65E5\u5E38\u751F\u6D3B\u4E2D\u7684\u9AD8\u9891\u6D88\u8D39\u54C1\u3002\u901A\u8FC7\u4E0E\u5496\u5561\u54C1\u724C\u8054\u540D\uFF0C\u53EF\u4EE5\u5C06\u8865\u9499\u884C\u4E3A\u81EA\u7136\u5D4C\u5165\u5230\u65E5\u5E38\u996E\u7528\u573A\u666F\u4E2D\uFF0C\u8BA9\u8865\u9499\u6210\u4E3A\u4E00\u79CD\u8F7B\u677E\u7684\u5065\u5EB7\u4E60\u60EF\u3002",
+                  title: "永璞咖啡｜日常提神与工作学习",
+                  body: "咖啡是年轻人日常生活中的高频消费品。通过与咖啡品牌联名，可以将补钙行为自然嵌入到日常饮用场景中，让补钙成为一种轻松的健康习惯。",
                 },
                 {
-                  title: "\u9632\u6652\u573A\u666F\uFF5C\u7F8E\u4E3D\u4E0E\u5065\u5EB7\u7BA1\u7406",
-                  body: "\u5BF9\u4E8E\u5E74\u8F7B\u5973\u6027\u800C\u8A00\uFF0C\u9632\u6652\u5DF2\u7ECF\u6210\u4E3A\u65E5\u5E38\u62A4\u80A4\u7684\u91CD\u8981\u6B65\u9AA4\u3002\u901A\u8FC7\u4E0E\u9632\u6652\u54C1\u724C\u8054\u540D\uFF0C\u5C06\u8865\u9499\u4E0E\u201C\u5065\u5EB7\u7F8E\u4E3D\u201D\u7684\u7406\u5FF5\u76F8\u7ED3\u5408\uFF0C\u5F3A\u5316\u54C1\u724C\u5728\u5E74\u8F7B\u5973\u6027\u7FA4\u4F53\u4E2D\u7684\u5438\u5F15\u529B\u3002",
+                  title: "安耐晒｜美丽与健康管理",
+                  body: "对于年轻女性而言，防晒已经成为日常护肤的重要步骤。钙尔奇将“补钙”与“护肤、防晒”等年轻女性关注的生活方式联系起来，打造更加多元化的健康理念。同时，通过与具有年轻活力的知名品牌安耐晒进行跨界合作，强化钙尔奇品牌在年轻女性群体中的吸引力。",
                 },
                 {
-                  title: "\u8FD0\u52A8\u573A\u666F\uFF5C\u6D3B\u529B\u4E0E\u5065\u5EB7\u751F\u6D3B\u65B9\u5F0F",
-                  body: "\u8FD0\u52A8\u4EE3\u8868\u5E74\u8F7B\u4EBA\u8FFD\u6C42\u6D3B\u529B\u4E0E\u5065\u5EB7\u7684\u751F\u6D3B\u65B9\u5F0F\u3002\u901A\u8FC7\u4E0E\u8FD0\u52A8\u54C1\u724C\u5408\u4F5C\uFF0C\u53EF\u4EE5\u62D3\u5C55\u8865\u9499\u8F6F\u7CD6\u5728\u8FD0\u52A8\u4E0E\u5065\u5EB7\u573A\u666F\u4E2D\u7684\u6D88\u8D39\u573A\u666F\uFF0C\u4F7F\u5176\u6210\u4E3A\u5E74\u8F7B\u4EBA\u8FD0\u52A8\u751F\u6D3B\u4E2D\u7684\u5065\u5EB7\u8865\u7ED9\u3002",
+                  title: "狂热粒子｜活力与健康生活方式",
+                  body: "运动代表年轻人追求活力与健康的生活方式。通过与运动品牌合作，可以拓展补钙软糖在运动与健康场景中的消费场景，使其成为年轻人运动生活中的健康补给。
+",
                 },
               ],
             },
             {
-              heading: "\u7B56\u7565\u76EE\u6807\uFF08Strategic Outcome\uFF09",
-              body: "\u901A\u8FC7\u8986\u76D6\u201C\u5496\u5561\u2014\u62A4\u80A4\u2014\u8FD0\u52A8\u201D\u4E09\u5927\u751F\u6D3B\u65B9\u5F0F\u573A\u666F\uFF0C\u5EFA\u7ACB\u8865\u9499\u4E0E\u5E74\u8F7B\u751F\u6D3B\u65B9\u5F0F\u4E4B\u95F4\u7684\u8054\u7CFB\uFF0C\u4ECE\u800C\u63A8\u52A8\u94D9\u5C14\u5947\u54C1\u724C\u7684\u5E74\u8F7B\u5316\u8F6C\u578B\uFF0C\u5E76\u63D0\u5347\u65B0\u54C1\u8349\u8393\u725B\u5976\u9499\u8F6F\u7CD6\u5728\u5E74\u8F7B\u6D88\u8D39\u7FA4\u4F53\u4E2D\u7684\u8BA4\u77E5\u5EA6\u4E0E\u63A5\u53D7\u5EA6\u3002",
+              heading: "策略目标",
+              body: "通过覆盖“咖啡—护肤—运动”三大生活方式场景，建立补钙与年轻生活方式之间的联系，从而推动钙尔奇品牌的年轻化转型，并提升新品草莓牛奶钙软糖在年轻消费群体中的认知度与接受度。",
             },
           ],
         },
@@ -522,8 +522,8 @@ const CONTENT = {
       links: [
         {
           label: "邮箱",
-          value: "wufan.chen@email.com",
-          href: "mailto:wufan.chen@email.com",
+          value: "arouchan666@gmail.com",
+          href: "arouchan666@gmail.com",
         },
         { label: "LinkedIn", value: "陈吴凡", href: "#" },
         { label: "Instagram", value: "@wufan.creates", href: "#" },
