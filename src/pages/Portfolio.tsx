@@ -79,24 +79,24 @@ const CONTENT = {
               body: "Therefore, this brand strategy takes \u201cscenario-based wellness\u201d as its core idea. Through cross-brand collaborations, the act of calcium supplementation is embedded into multiple high-frequency moments in young people\u2019s daily lifestyles, transforming it from a traditional health behavior into a relaxed, stylish, and sustainable habit.",
             },
             {
-              heading: "Scenario (Lifestyle Collaboration Scenarios)",
-              body: "",
-              sub: [
-                {
-                  title: "Coffee Scenario | Daily Energy for Work and Study",
-                  body: "Coffee is a high-frequency product in young consumers\u2019 daily lives. By collaborating with coffee brands, calcium supplementation can be naturally integrated into everyday drinking occasions, making it an easy and approachable healthy habit.",
-                },
-                {
-                  title: "Sunscreen Scenario | Beauty and Health Management",
-                  body: "For young women, sunscreen has already become an essential part of daily skincare. By collaborating with sunscreen brands, calcium supplementation can be connected with the idea of \u201chealthy beauty,\u201d strengthening the brand\u2019s appeal among young female consumers.",
-                },
-                {
-                  title: "Sports Scenario | Vitality and Healthy Lifestyle",
-                  body: "Exercise represents young people\u2019s pursuit of vitality and a healthy lifestyle. By collaborating with sports brands, the calcium gummies can extend into fitness and wellness consumption scenarios, becoming a healthy supplement in active lifestyles.",
-                },
-              ],
-            },
-            {
+heading: "Scenario (Lifestyle Collaboration Scenarios)",
+body: "",
+sub: [
+  {
+    title: "Caltrate × YONGPU Coffee | 'Daily C Boost' 28-Day Wellness Countdown Blind Box",
+    body: "Launch a 28-day wellness countdown blind box featuring daily-pack Caltrate Strawberry Milk Calcium Gummies paired with different YONGPU coffee flavors. Each box also includes small wellness items such as steam eye masks, herbal bath packs, and vitamin organizers. The 'unboxing + wellness check-in' concept integrates calcium intake into young consumers' daily routines while creating a sense of surprise and ritual.",
+  },
+  {
+    title: "Caltrate × ANESSA | Sunshine Vitality Protection Kit",
+    body: "Introduce a co-branded wellness kit combining ANESSA travel-size sunscreen with Caltrate Strawberry Milk Calcium Gummies. Designed as an easy-to-carry daily wellness pack for young women, the collaboration connects skincare and health management and communicates a simple message: protect outer beauty with sunscreen while supporting inner vitality with calcium.",
+  },
+  {
+    title: "Caltrate × Particle Fever | Energy Refill Station Collaboration",
+    body: "Partner with sportswear brand Particle Fever to create in-store 'Energy Refill Stations'. Launch co-branded sports kits combining athletic gear with Caltrate calcium gummies while organizing running and yoga community events. This collaboration positions calcium gummies as a daily wellness supplement for active lifestyles and strengthens the connection between the brand and youth wellness culture.",
+  },
+],
+},
+{
               heading: "Strategic Outcome",
               body: "By covering the three lifestyle scenarios of coffee, skincare, and sports, the strategy builds a connection between calcium supplementation and young lifestyles, thereby promoting Caltrate\u2019s brand rejuvenation and increasing awareness and acceptance of the new strawberry yogurt calcium gummies among younger consumers.",
             },
@@ -345,24 +345,24 @@ items: [
         body: "因此，本次品牌策略以“场景化养生”为核心思路，通过跨界联名将补钙行为融入年轻人日常生活方式中的多个高频场景，使补钙从传统健康行为转变为一种轻松、时尚且可持续的生活习惯。"
       },
       {
-        heading: "生活场景联名",
-        body: "",
-        sub: [
-          {
-            title: "永璞咖啡｜日常提神与工作学习",
-            body: "咖啡是年轻人日常生活中的高频消费品。通过与咖啡品牌联名，可以将补钙行为自然嵌入到日常饮用场景中，让补钙成为一种轻松的健康习惯。"
-          },
-          {
-            title: "安耐晒｜美丽与健康管理",
-            body: "对于年轻女性而言，防晒已经成为日常护肤的重要步骤。钙尔奇将“补钙”与“护肤、防晒”等年轻女性关注的生活方式联系起来，打造更加多元化的健康理念。同时，通过与具有年轻活力的知名品牌安耐晒进行跨界合作，强化钙尔奇品牌在年轻女性群体中的吸引力。"
-          },
-          {
-            title: "狂热粒子｜活力与健康生活方式",
-            body: "运动代表年轻人追求活力与健康的生活方式。通过与运动品牌合作，可以拓展补钙软糖在运动与健康场景中的消费场景，使其成为年轻人运动生活中的健康补给。"
-          }
-        ]
-      },
-      {
+heading: "生活场景联名",
+body: "",
+sub: [
+  {
+    title: "钙尔奇 × 永璞咖啡｜【每日C次放】28天养生倒数日历盲盒",
+    body: "推出 28 天养生计划倒数日历盲盒，将钙尔奇草莓牛奶钙软糖升级为每日即食小包装，并与不同口味的一杯装永璞咖啡组合。每个盲盒同时搭配轻养生好物，如蒸汽眼罩、泡脚包、维生素收纳盒等。通过“拆盲盒 + 养生打卡”的形式，将补钙融入年轻人的日常生活习惯，满足年轻人对仪式感消费与惊喜体验的需求。"
+  },
+  {
+    title: "钙尔奇 × 安耐晒｜阳光活力防晒补给盒",
+    body: "推出“阳光活力补给盒”联名产品，将安耐晒小规格防晒与钙尔奇草莓牛奶钙软糖随身装组合，打造年轻女性外出时便于携带的健康补给产品。通过将“防晒护肤”与“补钙养生”结合，传递健康生活理念：防晒守护外在美，补钙守护内在活力。"
+  },
+  {
+    title: "钙尔奇 × Particle Fever｜运动能量补给站联名计划",
+    body: "与运动品牌 Particle Fever 合作，在其线下门店打造“运动能量补给站”。推出联名运动礼包，将运动装备与钙尔奇草莓钙软糖结合，并结合跑步、瑜伽等线下社群活动，让钙软糖成为年轻运动人群日常健康补给的一部分，从而强化品牌与活力生活方式之间的联系。"
+  }
+]
+},
+{
         heading: "策略目标",
         body: "通过覆盖“咖啡—护肤—运动”三大生活方式场景，建立补钙与年轻生活方式之间的联系，从而推动钙尔奇品牌的年轻化转型，并提升新品草莓牛奶钙软糖在年轻消费群体中的认知度与接受度。"
             },
