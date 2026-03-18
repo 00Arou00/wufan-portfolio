@@ -2468,7 +2468,8 @@ export default function Portfolio() {
               </span>
               <div
                 style={{
-                  width: "85%",
+                  width: "25vw",
+                  maxWidth: "220px",
                   aspectRatio: "4/5",
                   borderRadius: 24,
                   position: "relative",
