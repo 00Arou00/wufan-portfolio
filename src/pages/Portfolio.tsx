@@ -97,25 +97,65 @@ sub: [
 ],
 },
 {
-              heading: "Strategic Outcome",
-              body: "By covering the three lifestyle scenarios of coffee, skincare, and sports, the strategy builds a connection between calcium supplementation and young lifestyles, thereby promoting Caltrate\u2019s brand rejuvenation and increasing awareness and acceptance of the new strawberry yogurt calcium gummies among younger consumers.",
-            },
-          ],
-        },
-        {
-          num: "02",
-          title: "Bloom Wellness",
-          subtitle: "Marketing Campaign",
-          cat: "Campaign",
-          year: "2024",
-          intro: "Multi-platform awareness campaign for a wellness startup. Achieved 40% organic engagement growth within one month of launch.",
-          desc: "Multi-platform awareness campaign for a wellness startup. 40% increase in organic engagement across Instagram and TikTok within the first month of launch.",
-          detail: "Designed and executed an integrated digital campaign spanning Instagram, TikTok, and Xiaohongshu. Created a content calendar of 60+ posts including short-form video, carousel infographics, and interactive Stories. Managed influencer seeding with 12 micro-creators, resulting in 40% organic engagement uplift and 8,500 new followers in the first month.",
-          role: "Campaign Lead — Strategy, Content Creation, Influencer Management",
-          tags: ["Social Media", "Campaign", "Content"],
-          accent: "#FFC6C6",
-        },
-        {
+heading: "Strategic Outcome",
+body: "By activating three key lifestyle scenarios—coffee, skincare, and sports—the strategy connects calcium supplementation with the everyday routines of young consumers. This approach positions Caltrate as a modern wellness companion while increasing awareness and acceptance of the new Strawberry Yogurt Calcium Gummies among younger audiences."
+},
+],
+},
+{
+num: "02",
+title: "Nanyuan · Guiyu Homestay Brand",
+subtitle: "A Day of Jiangnan Living",
+cat: "",
+year: "",
+intro: "Built around the concept of 'Retreat into Jiangnan', this project develops an immersive cultural experience for a boutique homestay located on Qingxi Old Street in Fengxian District. Through garden-style spatial design, traditional cultural activities, and social experiences, the project translates the Jiangnan lifestyle into a contemporary cultural tourism destination. The goal is to transform the homestay from a simple accommodation service into a cultural experience brand that combines hospitality, lifestyle, and social engagement.",
+desc: "Insight: Young travelers increasingly seek cultural depth and shareable experiences during trips, yet most homestays still focus primarily on accommodation and lack immersive cultural storytelling.",
+detail: "",
+role: "",
+tags: [],
+accent: "#FFC6C6",
+sections: [
+{
+heading: "Market Insight",
+body: "Today’s young travelers value meaningful cultural experiences and social storytelling during their journeys. However, many homestays still operate primarily as lodging services, missing opportunities to create immersive cultural environments."
+},
+{
+heading: "Brand Experience IP",
+body: "Retreat into Jiangnan — a cultural concept that invites visitors to step away from urban noise and experience the slow rhythm of Jiangnan life through space, culture, and social interaction."
+},
+{
+heading: "Experience System Design",
+body: "The project builds five interconnected experience layers — Stay / Dine / Play / Explore / Connect — combining Jiangnan cuisine, traditional leisure activities, and cultural gatherings to create a multi-dimensional brand journey.",
+sub: [
+{
+title: "Retreat · Stay",
+body: "Guests check in wearing Hanfu, open their windows to classical gardens, and fall asleep to the sound of flowing water — transforming accommodation into an immersive Jiangnan living experience."
+},
+{
+title: "Retreat · Dine",
+body: "Dining becomes a cultural ritual through experiences such as flowing-cup banquets, traditional brewing workshops, and Song Dynasty tea ceremonies."
+},
+{
+title: "Retreat · Play",
+body: "Traditional leisure activities such as pitch-pot games, guqin sessions, archery experiences, and herbal sachet workshops introduce guests to the aesthetics of ancient Chinese recreation."
+},
+{
+title: "Retreat · Explore",
+body: "Visitors explore Qingxi Old Street in Hanfu, enjoy Jiangnan opera performances, and participate in lantern-lit night tours, creating highly shareable cultural moments."
+},
+{
+title: "Retreat · Connect",
+body: "Cultural social programs including immersive murder-mystery experiences and workshops in calligraphy, painting, and flower arrangement foster deeper cultural engagement and social interaction."
+}
+]
+},
+{
+heading: "Strategic Outcome",
+body: "By combining cultural storytelling with immersive spatial experiences, the project establishes a differentiated cultural tourism homestay brand that integrates accommodation, lifestyle, and community."
+}
+]
+},
+{
           num: "03",
           title: "Nova Coffee",
           subtitle: "Brand Identity",
@@ -363,25 +403,65 @@ sub: [
 ]
 },
 {
-        heading: "策略目标",
-        body: "通过覆盖“咖啡—护肤—运动”三大生活方式场景，建立补钙与年轻生活方式之间的联系，从而推动钙尔奇品牌的年轻化转型，并提升新品草莓牛奶钙软糖在年轻消费群体中的认知度与接受度。"
-            },
-          ],
-        },
-        {
-          num: "02",
-          title: "绽放健康",
-          subtitle: "营销活动",
-          cat: "活动策划",
-          year: "2024",
-          intro: "为健康类初创企业策划多平台品牌曝光活动。上线首月自然互动量提升 40%。",
-          desc: "为健康类初创企业策划多平台品牌曝光活动，活动上线首月 Instagram 与 TikTok 自然互动量提升 40%。",
-          detail: "设计并执行了覆盖 Instagram、TikTok 和小红书的整合数字营销活动。制定了 60+ 篇内容日历，包括短视频、轮播图文和互动 Stories。管理 12 位微型 KOL 的种草投放，首月实现自然互动量提升 40%，新增粉丝 8,500 人。",
-          role: "活动负责人 — 策略、内容创作、KOL管理",
-          tags: ["社交媒体", "活动策划", "内容创作"],
-          accent: "#FFC6C6",
-        },
-        {
+heading: "策略目标",
+body: "通过覆盖“咖啡—护肤—运动”三大生活方式场景，建立补钙与年轻生活方式之间的联系，从而推动钙尔奇品牌的年轻化转型，并提升新品草莓牛奶钙软糖在年轻消费群体中的认知度与接受度。"
+},
+],
+},
+{
+num: "02",
+title: "南园·归隅民宿品牌",
+subtitle: "在归隅，过一日江南",
+cat: "",
+year: "",
+intro: "本项目围绕“归隐江南”的核心概念，为奉贤区青溪老街中的新民宿打造沉浸式江南文化体验场景。通过园林式空间设计、古风文化互动与社交活动，将传统江南生活方式融入现代文旅消费场景。本策划旨在使民宿从单一住宿空间升级为集住宿、文化体验与社交互动于一体的沉浸式文旅品牌。",
+desc: "市场洞察：年轻消费者在旅行中更加重视文化体验与社交分享，而多数民宿仍以住宿功能为主，缺乏沉浸式文化场景。",
+detail: "",
+role: "",
+tags: [],
+accent: "#FFC6C6",
+sections: [
+{
+heading: "市场洞察",
+body: "年轻消费者在旅行中更加重视文化体验与社交分享，而多数民宿仍以住宿功能为主，缺乏沉浸式文化场景。"
+},
+{
+heading: "核心体验IP",
+body: "归隐江南——在城市喧嚣之外，体验一隅江南慢生活。"
+},
+{
+heading: "产品体验设计",
+body: "构建“归隐 · 宿 / 饮 / 乐 / 游 / 社”五大体验体系，通过江南饮食、古风娱乐与文化社交活动打造沉浸式体验。",
+sub: [
+{
+title: "归隐·宿",
+body: "汉服体验入住，推窗见园林，入夜听流水，营造沉浸式江南居住体验。"
+},
+{
+title: "归隐·饮",
+body: "江南文化饮食体验：曲水流觞宴、古法酿酒体验、宋式点茶体验等，将餐饮设计成文化体验。"
+},
+{
+title: "归隐·乐",
+body: "古风休闲娱乐体验：投壶、古琴、射箭体验以及中药香囊DIY等互动活动。"
+},
+{
+title: "归隐·游",
+body: "江南生活方式体验：汉服漫游青溪老街、江南戏剧节目、夜游灯会等，强化拍照与社交分享属性。"
+},
+{
+title: "归隐·社",
+body: "文化社交活动：剧本杀沉浸体验、书法/绘画/插花体验课程等文化交流活动。"
+}
+]
+},
+{
+heading: "策略目标",
+body: "通过文化IP与沉浸式体验设计，构建具有差异化竞争力的文旅民宿品牌概念。"
+}
+]
+},
+{
           num: "03",
           title: "Nova 咖啡",
           subtitle: "品牌形象",
