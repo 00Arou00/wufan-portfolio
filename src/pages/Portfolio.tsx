@@ -747,33 +747,34 @@ creative: {
       eduDetail:
         "广告学学士 — 上海商学院\n社会、文化与媒体学硕士 — 英国利兹大学",
     },
-    contact: {
-      label: "联系方式",
-      heading: "期待与你\n合作。",
-      sub: "欢迎实习合作、自由项目及创意联名。期待听你聊聊正在构建的事情。",
-      links: [
-        {
-          label: "邮箱",
-          value: "arouchan666@gmail.com",
-          href: "arouchan666@gmail.com",
-        },
-        { label: "LinkedIn", value: "陈吴凡", href: "#" },
-        { label: "Instagram", value: "@wufan.creates", href: "#" },
-      ],
-      available: "欢迎新机会与合作",
-      form: {
-        name: "姓名",
-        namePh: "你的名字",
-        email: "邮箱",
-        emailPh: "your@email.com",
-        message: "留言",
-        messagePh: "告诉我你正在做的项目……",
-        send: "发送消息 →",
-        sent: "消息已发送。",
-        sentSub: "谢谢 — 我会尽快与你联系。",
+  contact: {
+    label: "联系方式",
+    heading: "期待与你\n合作。",
+    sub: "欢迎实习合作、自由项目及创意联名。期待听你聊聊正在构建的事情。",
+    links: [
+      {
+        label: "邮箱",
+        value: "arouchan666@gmail.com",
+        href: "mailto:arouchan666@gmail.com",
       },
+      { label: "LinkedIn", value: "陈吴凡", href: "#" },
+      { label: "Instagram", value: "@wufan.creates", href: "#" },
+    ],
+    available: "欢迎新机会与合作",
+    form: {
+      name: "姓名",
+      namePh: "你的名字",
+      email: "邮箱",
+      emailPh: "your@email.com",
+      message: "留言",
+      messagePh: "告诉我你正在做的项目……",
+      send: "发送消息 →",
+      sent: "消息已发送。",
+      sentSub: "谢谢 — 我会尽快与你联系。",
     },
-    footer: "© 2026 陈吴凡",
+  },
+  footer: "© 2026 陈吴凡",
+},
 };
 
 /* ─────────────────────────────────────────────
