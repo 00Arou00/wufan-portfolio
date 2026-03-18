@@ -543,29 +543,29 @@ TA戴上寐刻眼罩小憩，车厢仿佛被按下暂停键。`
         }
       ]
     },
-    {
-      heading: "策略目标",
-      body: "通过“暂停时刻”这一核心概念，寐刻从功能型睡眠产品升级为具有情绪价值的生活方式品牌。"
-    }
-  ]
+   {
+  heading: "策略目标",
+  body: "通过“暂停时刻”这一核心概念，寐刻从功能型睡眠产品升级为具有情绪价值的生活方式品牌。"
+}
+]
 },
-{
-      view: "查看项目",
-      back: "← 返回项目列表",
-      overview: "项目概述",
-      details: "项目详情",
-      roleLabel: "角色与职责",
-      tagsLabel: "标签",
-      visuals: "项目视觉内容即将上线",
-    },
-    creative: {
-      label: "创意作品",
-      heading: "文案、图片\n与视频。",
-      cats: [
-        {
-          name: "文案创作",
-          color: "#C8651A",
-          bg: "rgba(200,101,26,0.1)",
+projectDetail: {
+  view: "查看项目",
+  back: "← 返回项目列表",
+  overview: "项目概述",
+  details: "项目详情",
+  roleLabel: "角色与职责",
+  tagsLabel: "标签",
+  visuals: "项目视觉内容即将上线"
+},
+creative: {
+  label: "创意作品",
+  heading: "文案、图片\n与视频。",
+  cats: [
+    {
+      name: "文案创作",
+      color: "#C8651A",
+      bg: "rgba(200,101,26,0.1)",
           items: [
             {
               title: "论保持好奇心",
