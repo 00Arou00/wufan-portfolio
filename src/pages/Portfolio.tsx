@@ -156,27 +156,112 @@ body: "By combining cultural storytelling with immersive spatial experiences, th
 ]
 },
 {
-          num: "03",
-          title: "Nova Coffee",
-          subtitle: "Brand Identity",
-          cat: "Brand Identity",
-          year: "2023",
-          intro: "Complete brand identity from naming to visual language for an independent specialty coffee brand. Delivered brand book and launch communications.",
-          desc: "Brand identity from naming through visual language for an independent specialty coffee brand. Delivered brand book, messaging pillars, and launch communications.",
-          detail: "Developed the full brand identity for a specialty coffee startup from scratch — beginning with naming workshops, moving through logo design and color palette development, and culminating in a 40-page brand book. Crafted messaging pillars, menu copy, packaging language, and launch communications including press release and social media announcements.",
-          role: "Brand Designer — Naming, Visual Identity, Copywriting, Launch",
-          tags: ["Identity", "Messaging", "Visual"],
-          accent: "#FFD9A3",
+  num: "03",
+  title: "Meike Brand Communication Campaign",
+  subtitle: "",
+  cat: "",
+  year: "",
+  intro: "Meike specializes in silk eye masks and steam eye masks, dedicated to providing consumers with a comfortable sleep and relaxation experience. Centered around the core concept of 'Pause Moments', this project develops a brand communication campaign for the lifestyle brand Meike. Through scenario-based content and user co-creation, it highlights the high-pressure moments young people face in everyday life, positioning Meike as a symbol of everyday relaxation for young consumers.",
+  desc: `"In This Moment, the World Pauses"`,
+  detail: "The product is embedded into real-life scenarios experienced by young people: studying late in the library / working in the office / social fatigue / eye strain / meditation / bathing / ... When users put on a Meike eye mask, the world seems to be put on pause.",
+  role: ["Scenario-Based Product Marketing Strategy", "Social Media Content Design"],
+  tags: [],
+  accent: "#FFD9A3",
+
+  sections: [
+    {
+      heading: "Social Media Content Design",
+      sub: [
+        {
+          title: "Weibo",
+          body: `Launch interactive hashtag campaigns to increase brand discussion.
+Create the hashtag #IfTheWorldPausedForOneMinuteWhatWouldYouDo and invite users to share their own pause moments.
+Start a "Pause Moment" photo collection campaign to encourage users to post relaxing moments from everyday life, while sustaining participation through polls, interactive comments, and giveaway activities.`
         },
-      ],
-      view: "View Project",
-      back: "← Back to Projects",
-      overview: "Overview",
-      details: "Project Details",
-      roleLabel: "Role & Responsibilities",
-      tagsLabel: "Tags",
-      visuals: "Project visuals coming soon",
+        {
+          title: "Rednote",
+          body: "Invite lifestyle bloggers, sleep-focused creators, and workplace influencers to share their own 'pause moments' through authentic daily-life content, helping audiences recognize the value of taking short breaks in the middle of a busy routine.",
+          sub: [
+            {
+              title: "KOL Collaboration | Workplace Blogger — 'How a Ten-Minute Lunch Break Saved My Productivity'",
+              body: "Share how short moments of rest during a busy workday can restore energy and improve productivity in the afternoon."
+            },
+            {
+              title: "KOL Collaboration | Lifestyle Blogger — 'My Bedtime Wind-Down Ritual'",
+              body: "Document bedtime relaxation routines such as reading, meditation, and using a steam eye mask to highlight the emotional comfort of a nighttime ritual."
+            },
+            {
+              title: "KOL Collaboration | Travel Blogger — 'The Most Comfortable Way to Rest While Traveling'",
+              body: "Show how to recover during travel through short breaks, such as using a steam eye mask on planes, high-speed trains, or in hotels, making the journey more comfortable."
+            }
+          ]
+        },
+        {
+          title: "TikTok",
+          body: "Build a unified visual concept in which people become still, sound disappears, and the pace of the frame slows down. Through a series of short scenario-based films, present different 'pause moments' from daily life and reinforce the brand experience of relaxation and rest.",
+          sub: [
+            {
+              title: "Short Film Series: 'Pause Moments'",
+              body: "Through short stories set in different everyday scenarios, present the moments in which young people search for brief relief within a fast-paced lifestyle.",
+              sub: [
+                {
+                  title: "'Thought Pause'",
+                  body: `Late at night in the library, a student is rushing to finish assignments, overwhelmed and mentally exhausted, while deadline reminders and message notifications keep flashing across the computer screen.
+When the student puts on a Meike steam eye mask, everything around them seems to suddenly freeze, and the world becomes quiet.`
+                },
+                {
+                  title: "'Social Pause'",
+                  body: `During the evening rush hour, a crowded subway is filled with announcements, conversations, and phone notifications.
+The protagonist is exhausted and notices someone they know in the corner of their vision, but does not want to greet them.
+They put on a Meike eye mask for a short rest, and the entire carriage feels as if it has been placed on pause.`
+                },
+                {
+                  title: "'Gaming Pause'",
+                  body: `Late at night, game sound effects continue to fill the room as the protagonist has been playing for hours and their eyes are gradually becoming tired.
+When they put on a Meike steam eye mask, both the screen and the noise seem to pause at the same time.`
+                },
+                {
+                  title: "'Pause for Meditation'",
+                  body: `In a yoga studio early in the morning, the noise of the city can still be heard faintly in the distance.
+The protagonist sits on a yoga mat trying to relax.
+After putting on a Meike eye mask and entering a meditative state, the world gradually becomes still and quiet.`
+                }
+              ]
+            }
+          ]
+        },
+        {
+          title: "Offline Experience",
+          body: `Set up a "Pause Space" in urban commercial districts.
+Spatial design includes: a quiet rest area + soft lighting + a product experience zone.
+Users can enjoy a short moment of relaxation in the space while taking photos and sharing their experience online.`
+        }
+      ]
     },
+    {
+      heading: "Strategic Outcome",
+      body: "Through the core concept of 'Pause Moments', Meike evolves from a functional sleep product into a lifestyle brand with emotional value."
+    }
+  ]
+}
+],
+projectDetail: {
+  view: "View Project",
+  back: "← Back to Projects",
+  overview: "Overview",
+  details: "Project Details",
+  roleLabel: "Role & Responsibilities",
+  tagsLabel: "Tags",
+  visuals: "Project visuals coming soon"
+},
+creative: {
+  label: "Creative Works",
+  heading: "Copy, visuals\n& video.",
+  cats: [
+    {
+      name: "Copywriting",
+      color: "#C8651A",
+      bg: "rgba(200,101,26,0.1)",
     creative: {
       label: "Creative Works",
       heading: "Copy, visuals\n& video.",
@@ -697,7 +782,6 @@ creative: {
       },
     },
     footer: "© 2026 陈吴凡",
-  },
 };
 
 /* ─────────────────────────────────────────────
