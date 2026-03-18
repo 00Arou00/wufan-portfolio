@@ -2471,54 +2471,21 @@ export default function Portfolio() {
                   width: "85%",
                   aspectRatio: "4/5",
                   borderRadius: 24,
-                  background:
-                    "linear-gradient(135deg, rgba(163,201,255,0.15) 0%, rgba(224,195,240,0.15) 50%, rgba(195,232,195,0.12) 100%)",
-                  border: "2px dashed rgba(163,201,255,0.35)",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: "0.75rem",
-                  backdropFilter: "blur(12px)",
                   position: "relative",
                   overflow: "hidden",
                 }}
               >
-                <div
+                <img
+                  src="/images/photo.jpg"
+                  alt="Wufan Chen"
                   style={{
-                    width: 64,
-                    height: 64,
-                    borderRadius: "50%",
-                    background: "rgba(163,201,255,0.18)",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    objectPosition: "center top",
+                    display: "block",
                   }}
-                >
-                  <svg
-                    width="28"
-                    height="28"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="rgba(107,155,210,0.6)"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
-                </div>
-                <span
-                  style={{
-                    fontSize: "0.78rem",
-                    color: "#B0B8CC",
-                    fontWeight: 500,
-                    letterSpacing: "0.04em",
-                  }}
-                >
-                  {t.about.photoLabel}
-                </span>
+                />
               </div>
               <div
                 className="sr"
