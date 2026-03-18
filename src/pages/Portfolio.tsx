@@ -254,14 +254,6 @@ projectDetail: {
   tagsLabel: "Tags",
   visuals: "Project visuals coming soon"
 },
-creative: {
-  label: "Creative Works",
-  heading: "Copy, visuals\n& video.",
-  cats: [
-    {
-      name: "Copywriting",
-      color: "#C8651A",
-      bg: "rgba(200,101,26,0.1)",
     creative: {
       label: "Creative Works",
       heading: "Copy, visuals\n& video.",
