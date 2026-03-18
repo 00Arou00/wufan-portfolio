@@ -68,6 +68,7 @@ const CONTENT = {
           detail: "",
           role: "",
           tags: ["Brand Collaboration", "Scenario Marketing", "Brand Rejuvenation"],
+          image: "/images/caltrate.png",
           accent: "#A3C9FF",
           sections: [
             {
@@ -113,6 +114,7 @@ desc: "Insight: Young travelers increasingly seek cultural depth and shareable e
 detail: "",
 role: "",
 tags: [],
+image: "/images/nygy.png",
 accent: "#FFC6C6",
 sections: [
 {
@@ -166,6 +168,7 @@ body: "By combining cultural storytelling with immersive spatial experiences, th
   detail: "The product is embedded into real-life scenarios experienced by young people: studying late in the library / working in the office / social fatigue / eye strain / meditation / bathing / ... When users put on a Meike eye mask, the world seems to be put on pause.",
   role: ["Scenario-Based Product Marketing Strategy", "Social Media Content Design"],
   tags: [],
+  image: "/images/meike.png",
   accent: "#FFD9A3",
   sections: [
     {
@@ -491,6 +494,7 @@ desc: "市场洞察：年轻消费者在旅行中更加重视文化体验与社�
 detail: "",
 role: "",
 tags: [],
+image: "/images/nygy.png",
 accent: "#FFC6C6",
 sections: [
 {
@@ -544,6 +548,7 @@ body: "通过文化IP与沉浸式体验设计，构建具有差异化竞争力�
   detail: "将产品融入年轻人的真实生活场景：图书馆赶作业 / 办公室工作 / 社交疲劳 / 用眼过度 / 冥想 / 泡澡 / …… 。当用户戴上寐刻眼罩，世界仿佛按下暂停键。",
   role: ["产品场景化营销策划", "社交媒体传播内容设计"],
   tags: [],
+  image: "/images/meike.png",
   accent: "#FFD9A3",
   sections: [
     {
@@ -1019,6 +1024,7 @@ type ProjectItem = {
   role: string;
   tags: string[];
   accent: string;
+  image?: string;
   sections?: ProjectSection[];
 };
 function ProjectCard({
@@ -1086,20 +1092,29 @@ function ProjectCard({
 
         <div style={{
           width: "100%", aspectRatio: "16/9", borderRadius: 14,
+          overflow: "hidden",
           background: `linear-gradient(145deg, ${item.accent}10, rgba(240,240,248,0.5), ${item.accent}06)`,
-          border: `1.5px dashed ${item.accent}25`,
+          border: item.image ? "none" : `1.5px dashed ${item.accent}25`,
           display: "flex", alignItems: "center", justifyContent: "center",
           transition: "all 0.35s",
           boxShadow: hov ? `inset 0 0 20px ${item.accent}08` : "none",
         }}>
-          <div style={{ textAlign: "center" }}>
-            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" style={{ opacity: 0.3, marginBottom: 4 }}>
-              <rect x="3" y="6" width="26" height="20" rx="3" stroke={item.accent} strokeWidth="1.5" />
-              <circle cx="12" cy="14" r="3" stroke={item.accent} strokeWidth="1.5" />
-              <path d="M3 22l7-5 5 4 4-3 10 7" stroke={item.accent} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            <span style={{ fontSize: "0.7rem", color: "#C0C8D8", fontWeight: 500, display: "block" }}>Product Image</span>
-          </div>
+          {item.image ? (
+            <img
+              src={item.image}
+              alt={item.title}
+              style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+            />
+          ) : (
+            <div style={{ textAlign: "center" }}>
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" style={{ opacity: 0.3, marginBottom: 4 }}>
+                <rect x="3" y="6" width="26" height="20" rx="3" stroke={item.accent} strokeWidth="1.5" />
+                <circle cx="12" cy="14" r="3" stroke={item.accent} strokeWidth="1.5" />
+                <path d="M3 22l7-5 5 4 4-3 10 7" stroke={item.accent} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <span style={{ fontSize: "0.7rem", color: "#C0C8D8", fontWeight: 500, display: "block" }}>Product Image</span>
+            </div>
+          )}
         </div>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>
@@ -1620,17 +1635,25 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <GlassCard className="detail-card" style={{ padding: "2.5rem", marginBottom: "1.5rem" }}>
-            <div style={{ width: "100%", aspectRatio: "2.2/1", borderRadius: 20, background: `linear-gradient(135deg, ${proj.accent}12, rgba(240,240,248,0.5), ${proj.accent}06)`, border: `2px dashed ${proj.accent}25`, display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <div style={{ textAlign: "center" }}>
-                <svg width="36" height="36" viewBox="0 0 32 32" fill="none" style={{ opacity: 0.3, marginBottom: 6 }}>
-                  <rect x="3" y="6" width="26" height="20" rx="3" stroke={proj.accent} strokeWidth="1.5" />
-                  <circle cx="12" cy="14" r="3" stroke={proj.accent} strokeWidth="1.5" />
-                  <path d="M3 22l7-5 5 4 4-3 10 7" stroke={proj.accent} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <span style={{ fontSize: "0.8rem", color: "#B0B8CC", fontWeight: 500, display: "block" }}>{t.projects.visuals}</span>
+          <GlassCard className="detail-card" style={{ padding: proj.image ? 0 : "2.5rem", marginBottom: "1.5rem", overflow: "hidden" }}>
+            {proj.image ? (
+              <img
+                src={proj.image}
+                alt={proj.title}
+                style={{ width: "100%", maxHeight: "420px", objectFit: "cover", display: "block", borderRadius: 20 }}
+              />
+            ) : (
+              <div style={{ width: "100%", aspectRatio: "2.2/1", borderRadius: 20, background: `linear-gradient(135deg, ${proj.accent}12, rgba(240,240,248,0.5), ${proj.accent}06)`, border: `2px dashed ${proj.accent}25`, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <div style={{ textAlign: "center" }}>
+                  <svg width="36" height="36" viewBox="0 0 32 32" fill="none" style={{ opacity: 0.3, marginBottom: 6 }}>
+                    <rect x="3" y="6" width="26" height="20" rx="3" stroke={proj.accent} strokeWidth="1.5" />
+                    <circle cx="12" cy="14" r="3" stroke={proj.accent} strokeWidth="1.5" />
+                    <path d="M3 22l7-5 5 4 4-3 10 7" stroke={proj.accent} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  <span style={{ fontSize: "0.8rem", color: "#B0B8CC", fontWeight: 500, display: "block" }}>{t.projects.visuals}</span>
+                </div>
               </div>
-            </div>
+            )}
           </GlassCard>
 
           {proj.sections && proj.sections.length > 0 ? (
