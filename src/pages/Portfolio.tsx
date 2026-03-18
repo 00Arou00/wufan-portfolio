@@ -241,7 +241,7 @@ Users can enjoy a short moment of relaxation in the space while taking photos an
 ],
 projectDetail: {
   view: "View Project",
-  back: "← Back to Projects",
+  back: "← Back",
   overview: "Overview",
   details: "Project Details",
   roleLabel: "Role & Responsibilities",
@@ -618,7 +618,7 @@ TA戴上寐刻眼罩小憩，车厢仿佛被按下暂停键。`
 ],
 projectDetail: {
   view: "查看项目",
-  back: "← 返回项目列表",
+  back: "← 返回",
   overview: "项目概述",
   details: "项目详情",
   roleLabel: "角色与职责",
