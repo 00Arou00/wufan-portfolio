@@ -253,8 +253,9 @@ projectDetail: {
   roleLabel: "Role & Responsibilities",
   tagsLabel: "Tags",
   visuals: "Project visuals coming soon"
+}
 },
-    creative: {
+creative: {
       label: "Creative Works",
       heading: "Copy, visuals\n& video.",
       cats: [
@@ -635,7 +636,9 @@ projectDetail: {
   roleLabel: "角色与职责",
   tagsLabel: "标签",
   visuals: "项目视觉内容即将上线"
+}
 },
+creative: {
 creative: {
   label: "创意作品",
   heading: "文案、图片\n与视频。",
