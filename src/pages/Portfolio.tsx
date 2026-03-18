@@ -276,23 +276,6 @@ projectDetail: {
           ],
         },
         {
-          name: "Image Design",
-          color: "#5B8ED6",
-          bg: "rgba(91,142,214,0.1)",
-          items: [
-            {
-              title: "Texture & Tone",
-              desc: "20-image editorial photography series documenting urban texture and light across three Asian cities.",
-              type: "photo",
-            },
-            {
-              title: "Motion Identity",
-              desc: "Animated social media template system for a creative agency — consistent, on-brand motion across all touchpoints.",
-              type: "motion",
-            },
-          ],
-        },
-        {
           name: "Video Content",
           color: "#B0436E",
           bg: "rgba(176,67,110,0.1)",
@@ -650,23 +633,6 @@ projectDetail: {
               desc: "为某鞋类品牌限量系列发布会撰写的主题口号及活动文案。",
               quote: "你不需要地图，走一条没人走过的路。",
               type: "campaign",
-            },
-          ],
-        },
-        {
-          name: "图片设计",
-          color: "#5B8ED6",
-          bg: "rgba(91,142,214,0.1)",
-          items: [
-            {
-              title: "质感与色调",
-              desc: "记录三座亚洲城市城市纹理与光影的 20 张系列摄影，用于品牌季度 Lookbook。",
-              type: "photo",
-            },
-            {
-              title: "动态视觉体系",
-              desc: "为某创意机构客户打造动态社交媒体模板体系，确保全渠道品牌视觉一致性。",
-              type: "motion",
             },
           ],
         },
@@ -1265,43 +1231,45 @@ function CreativeItemCard({
       onMouseEnter={() => setHov(true)}
       onMouseLeave={() => setHov(false)}
     >
-      <div
-        style={{
-          aspectRatio: isVideo ? "16/9" : "3/2",
-          background: hov
-            ? cat.bg
-            : "linear-gradient(135deg, rgba(240,240,245,0.85) 0%, rgba(232,232,240,0.85) 100%)",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: "0.625rem",
-          transition: "background 0.35s ease",
-          borderBottom: "1px solid rgba(200,205,225,0.18)",
-        }}
-      >
+      {item.type !== "essay" && item.type !== "campaign" && (
         <div
           style={{
-            color: hov ? cat.color : "#CCCCCC",
-            transition: "color 0.3s, transform 0.3s",
-            transform: hov ? "scale(1.12)" : "scale(1)",
+            aspectRatio: isVideo ? "16/9" : "3/2",
+            background: hov
+              ? cat.bg
+              : "linear-gradient(135deg, rgba(240,240,245,0.85) 0%, rgba(232,232,240,0.85) 100%)",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "0.625rem",
+            transition: "background 0.35s ease",
+            borderBottom: "1px solid rgba(200,205,225,0.18)",
           }}
         >
-          {ICONS[item.type] ?? ICONS.photo}
+          <div
+            style={{
+              color: hov ? cat.color : "#CCCCCC",
+              transition: "color 0.3s, transform 0.3s",
+              transform: hov ? "scale(1.12)" : "scale(1)",
+            }}
+          >
+            {ICONS[item.type] ?? ICONS.photo}
+          </div>
+          <span
+            style={{
+              fontSize: 9.5,
+              letterSpacing: "0.18em",
+              textTransform: "uppercase",
+              fontWeight: 700,
+              color: hov ? cat.color : "#D0D0D0",
+              transition: "color 0.3s",
+            }}
+          >
+            {typeLabel}
+          </span>
         </div>
-        <span
-          style={{
-            fontSize: 9.5,
-            letterSpacing: "0.18em",
-            textTransform: "uppercase",
-            fontWeight: 700,
-            color: hov ? cat.color : "#D0D0D0",
-            transition: "color 0.3s",
-          }}
-        >
-          {typeLabel}
-        </span>
-      </div>
+      )}
       <div style={{ padding: "1.5rem 1.625rem" }}>
         <div
           style={{
@@ -1613,7 +1581,7 @@ export default function Portfolio() {
             onMouseEnter={e => { (e.target as HTMLElement).style.color = proj.accent; (e.target as HTMLElement).style.borderColor = proj.accent + "50"; }}
             onMouseLeave={e => { (e.target as HTMLElement).style.color = "#888"; (e.target as HTMLElement).style.borderColor = "rgba(255,255,255,0.7)"; }}
           >
-            {t.projects.back}
+            {t.projectDetail.back}
           </button>
 
           <div className="detail-card" style={{ display: "flex", alignItems: "center", gap: "1.5rem", marginBottom: "2rem" }}>
@@ -1719,7 +1687,7 @@ export default function Portfolio() {
               onMouseEnter={e => { (e.target as HTMLElement).style.borderColor = proj.accent + "50"; (e.target as HTMLElement).style.color = "#555"; }}
               onMouseLeave={e => { (e.target as HTMLElement).style.borderColor = "rgba(200,205,225,0.35)"; (e.target as HTMLElement).style.color = "#888"; }}
             >
-              {t.projects.back}
+              {t.projectDetail.back}
             </button>
           </div>
         </div>
