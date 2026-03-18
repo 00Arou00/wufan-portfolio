@@ -1691,11 +1691,21 @@ export default function Portfolio() {
           <div style={{ marginTop: "2.5rem", display: "flex", justifyContent: "center", gap: "1rem" }}>
             <button
               onClick={() => setActiveProject(null)}
-              style={{ padding: "0.875rem 2.25rem", borderRadius: 100, border: "1px solid rgba(200,205,225,0.35)", background: "rgba(255,255,255,0.6)", backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)", color: "#888", fontWeight: 600, fontSize: "0.82rem", cursor: "pointer", fontFamily: "inherit", transition: "all 0.25s", letterSpacing: "0.02em" }}
+              style={{
+  padding: "0.9rem 2.4rem",
+  borderRadius: 100,
+  border: `1px solid ${proj.accent}40`,
+  background: "#fff",
+  color: proj.accent,
+  fontWeight: 700,
+  fontSize: "0.85rem",
+  cursor: "pointer",
+  transition: "all 0.25s"
+}}
               onMouseEnter={e => { (e.target as HTMLElement).style.borderColor = proj.accent + "50"; (e.target as HTMLElement).style.color = "#555"; }}
               onMouseLeave={e => { (e.target as HTMLElement).style.borderColor = "rgba(200,205,225,0.35)"; (e.target as HTMLElement).style.color = "#888"; }}
             >
-              {t.projects.back}
+              {t.projectDetail.back}
             </button>
           </div>
         </div>
