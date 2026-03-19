@@ -1674,7 +1674,7 @@ export default function Portfolio() {
                   )}
                   {(proj.tags ?? []).length > 0 && (
                     <GlassCard style={{ padding: "2rem" }}>
-                      <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1rem" }}>{t.projects.projectDetail.tagsLabel}}</h3>
+                      <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1rem" }}>{t.projects.projectDetail.tagsLabel}</h3>
                       <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
                         {(proj.tags ?? []).map(tag => (
                           <span key={tag} style={{ fontSize: "0.82rem", fontWeight: 600, padding: "0.45rem 1rem", borderRadius: 100, background: `${proj.accent}15`, color: "#777", border: `1px solid ${proj.accent}30` }}>{tag}</span>
