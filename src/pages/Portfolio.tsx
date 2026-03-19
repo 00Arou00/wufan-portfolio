@@ -28,9 +28,9 @@ const CONTENT = {
       "Editorial Direction",
       "Motion Design",
     ],
-    about: {
-      label: "About Me",
-      photoLabel: "Your Photo Here",
+about: {
+  label: "About Me",
+  photo: "images/zjz.JPG",
       stats: [
         { n: "4", l: "Internships" },
         { n: "10+", l: "Projects" },
@@ -68,7 +68,7 @@ const CONTENT = {
           detail: "",
           role: "",
           tags: ["Brand Collaboration", "Scenario Marketing", "Brand Rejuvenation"],
-          image: "/images/caltrate.png",
+          image: "images/caltrate.png",
           accent: "#A3C9FF",
           sections: [
             {
@@ -114,7 +114,7 @@ desc: "Insight: Young travelers increasingly seek cultural depth and shareable e
 detail: "",
 role: "",
 tags: [],
-image: "/images/nygy.png",
+image: "images/nygy.png",
 accent: "#FFC6C6",
 sections: [
 {
@@ -168,7 +168,7 @@ body: "By combining cultural storytelling with immersive spatial experiences, th
   detail: "The product is embedded into real-life scenarios experienced by young people: studying late in the library / working in the office / social fatigue / eye strain / meditation / bathing / ... When users put on a Meike eye mask, the world seems to be put on pause.",
   role: ["Scenario-Based Product Marketing Strategy", "Social Media Content Design"],
   tags: [],
-  image: "/images/meike.png",
+  image: "images/meike.png",
   accent: "#FFD9A3",
   sections: [
     {
