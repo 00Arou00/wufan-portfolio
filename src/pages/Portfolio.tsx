@@ -975,7 +975,7 @@ function GlassCard({
 ───────────────────────────────────────────── */
 type ProjectSection = {
   heading: string;
-  body: string;
+  body?: string;
   sub?: { title: string; body: string }[];
 };
 type ProjectItem = {
@@ -987,7 +987,7 @@ type ProjectItem = {
   intro: string;
   desc: string;
   detail: string;
-  role: string;
+  role: string | string[];
   tags: string[];
   accent: string;
   image?: string;
@@ -1657,19 +1657,27 @@ export default function Portfolio() {
                   <p style={{ fontSize: "0.95rem", lineHeight: 2, color: "#555", margin: 0 }}>{proj.detail}</p>
                 </GlassCard>
               )}
-              {(proj.role || proj.tags.length > 0) && (
+              {(proj.role && (Array.isArray(proj.role) ? proj.role.length > 0 : proj.role !== "") || (proj.tags ?? []).length > 0) && (
                 <div className="detail-card detail-grid" style={{ marginBottom: "1.5rem" }}>
-                  {proj.role && (
+                  {proj.role && (Array.isArray(proj.role) ? proj.role.length > 0 : proj.role !== "") && (
                     <GlassCard style={{ padding: "2rem" }}>
                       <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1rem" }}>{t.projects.roleLabel}</h3>
-                      <p style={{ fontSize: "0.9rem", lineHeight: 1.7, color: "#666", margin: 0 }}>{proj.role}</p>
+                      {Array.isArray(proj.role) ? (
+                        <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+                          {proj.role.map((r, ri) => (
+                            <p key={ri} style={{ fontSize: "0.9rem", lineHeight: 1.7, color: "#666", margin: 0 }}>{r}</p>
+                          ))}
+                        </div>
+                      ) : (
+                        <p style={{ fontSize: "0.9rem", lineHeight: 1.7, color: "#666", margin: 0 }}>{proj.role}</p>
+                      )}
                     </GlassCard>
                   )}
-                  {proj.tags.length > 0 && (
+                  {(proj.tags ?? []).length > 0 && (
                     <GlassCard style={{ padding: "2rem" }}>
                       <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1rem" }}>{t.projects.tagsLabel}</h3>
                       <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
-                        {proj.tags.map(tag => (
+                        {(proj.tags ?? []).map(tag => (
                           <span key={tag} style={{ fontSize: "0.82rem", fontWeight: 600, padding: "0.45rem 1rem", borderRadius: 100, background: `${proj.accent}15`, color: "#777", border: `1px solid ${proj.accent}30` }}>{tag}</span>
                         ))}
                       </div>
