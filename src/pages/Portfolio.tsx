@@ -648,8 +648,8 @@ projectDetail: {
   desc: "通过剪辑手法，将花朵缓慢绽放的过程浓缩于短片之中，配合富有节奏感的音乐，突出生命盛放的力量与美感。",
   type: "branded",
   video: "https://www.youtube.com/embed/_6Pmknyansc",
-}
-            {
+ },
+  {
               title: "品牌影片 — Nova 咖啡",
               desc: "90 秒品牌故事影片，结合手持纪实摄影与旁白叙述，传递品牌的真实气质。",
               type: "branded",
