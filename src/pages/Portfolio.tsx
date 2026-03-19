@@ -1580,7 +1580,7 @@ export default function Portfolio() {
             onMouseEnter={e => { (e.target as HTMLElement).style.color = proj.accent; (e.target as HTMLElement).style.borderColor = proj.accent + "50"; }}
             onMouseLeave={e => { (e.target as HTMLElement).style.color = "#888"; (e.target as HTMLElement).style.borderColor = "rgba(255,255,255,0.7)"; }}
           >
-            {t.projectDetail.back}
+{t.projects.projectDetail.back}
           </button>
 
           <div className="detail-card" style={{ display: "flex", alignItems: "center", gap: "1.5rem", marginBottom: "2rem" }}>
@@ -1617,7 +1617,7 @@ export default function Portfolio() {
                     <circle cx="12" cy="14" r="3" stroke={proj.accent} strokeWidth="1.5" />
                     <path d="M3 22l7-5 5 4 4-3 10 7" stroke={proj.accent} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
-                  <span style={{ fontSize: "0.8rem", color: "#B0B8CC", fontWeight: 500, display: "block" }}>{t.projects.visuals}</span>
+                  <span style={{ fontSize: "0.8rem", color: "#B0B8CC", fontWeight: 500, display: "block" }}>{t.projects.projectDetail.visuals}</span>
                 </div>
               </div>
             )}
@@ -1646,13 +1646,13 @@ export default function Portfolio() {
             <>
               {proj.desc && (
                 <GlassCard className="detail-card" style={{ padding: "2.5rem", marginBottom: "1.5rem" }}>
-                  <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1.25rem" }}>{t.projects.overview}</h3>
+                  <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1.25rem" }}>{t.projects.projectDetail.overview}</h3>
                   <p style={{ fontSize: "1rem", lineHeight: 1.9, color: "#666", margin: 0 }}>{proj.desc}</p>
                 </GlassCard>
               )}
               {proj.detail && (
                 <GlassCard className="detail-card" style={{ padding: "2.5rem", marginBottom: "1.5rem" }}>
-                  <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1.25rem" }}>{t.projects.details}</h3>
+                  <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1.25rem" }}>{t.projects.projectDetail.details}</h3>
                   <p style={{ fontSize: "0.95rem", lineHeight: 2, color: "#555", margin: 0 }}>{proj.detail}</p>
                 </GlassCard>
               )}
@@ -1660,7 +1660,7 @@ export default function Portfolio() {
                 <div className="detail-card detail-grid" style={{ marginBottom: "1.5rem" }}>
                   {proj.role && (Array.isArray(proj.role) ? proj.role.length > 0 : proj.role !== "") && (
                     <GlassCard style={{ padding: "2rem" }}>
-                      <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1rem" }}>{t.projects.roleLabel}</h3>
+                      <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1rem" }}>{t.projects.projectDetail.roleLabel}</h3>
                       {Array.isArray(proj.role) ? (
                         <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
                           {proj.role.map((r, ri) => (
@@ -1674,7 +1674,7 @@ export default function Portfolio() {
                   )}
                   {(proj.tags ?? []).length > 0 && (
                     <GlassCard style={{ padding: "2rem" }}>
-                      <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1rem" }}>{t.projects.tagsLabel}</h3>
+                      <h3 style={{ fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase", fontWeight: 700, color: "#BBBBC8", marginBottom: "1rem" }}>{t.projects.projectDetail.tagsLabel}}</h3>
                       <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
                         {(proj.tags ?? []).map(tag => (
                           <span key={tag} style={{ fontSize: "0.82rem", fontWeight: 600, padding: "0.45rem 1rem", borderRadius: 100, background: `${proj.accent}15`, color: "#777", border: `1px solid ${proj.accent}30` }}>{tag}</span>
@@ -1694,7 +1694,7 @@ export default function Portfolio() {
               onMouseEnter={e => { (e.target as HTMLElement).style.borderColor = proj.accent + "50"; (e.target as HTMLElement).style.color = "#555"; }}
               onMouseLeave={e => { (e.target as HTMLElement).style.borderColor = "rgba(200,205,225,0.35)"; (e.target as HTMLElement).style.color = "#888"; }}
             >
-              {t.projectDetail.back}
+{t.projects.projectDetail.back}
             </button>
           </div>
         </div>
