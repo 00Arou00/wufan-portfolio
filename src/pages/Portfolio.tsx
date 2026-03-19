@@ -240,8 +240,7 @@ Users can enjoy a short moment of relaxation in the space while taking photos an
     }
   ]
 }
-],
-projectDetail: {
+],projectDetail: {
   view: "View Project",
   back: "← Back to Projects",
   overview: "Overview",
@@ -251,101 +250,101 @@ projectDetail: {
   visuals: "Project visuals coming soon",
 }
 },
-    creative: {
-      label: "Creative Works",
-      heading: "Copy, visuals\n& video.",
-      cats: [
-        {
-          name: "Copywriting",
-          color: "#C8651A",
-          bg: "rgba(200,101,26,0.1)",
-          items: [
-            {
-              title: "On Staying Curious",
-              desc: "Essay on intellectual curiosity and brand storytelling, published in a digital culture magazine.",
-              quote:
-                "Curiosity doesn't kill the cat — it gives the cat a story worth telling.",
-              type: "essay",
-            },
-            {
-              title: "Launch Day — Campaign Copy",
-              desc: "Tagline and campaign copy for a footwear brand's limited-edition collection launch.",
-              quote: "You don't need a map for a road no one else has walked.",
-              type: "campaign",
-            },
-          ],
-        },
-        {
-          name: "Video Content",
-          color: "#B0436E",
-          bg: "rgba(176,67,110,0.1)",
-          items: [
-            {
-              title: "Between Spaces",
-              desc: "7-minute short documentary about young artists navigating creative work in a hyper-digital world. Screened at two film festivals.",
-              type: "documentary",
-            },
-            {
-              title: "Brand Film — Nova Coffee",
-              desc: "90-second brand story film combining handheld cinematography with narration to communicate authentic identity.",
-              type: "branded",
-            },
-          ],
-        },
-      ],
-      request: "Available on request",
-    },
-    cv: {
-      label: "Experience",
-      heading: "Internship\nexperience.",
+creative: {
+  label: "Creative Works",
+  heading: "Copy, visuals\n& video.",
+  cats: [
+    {
+      name: "Copywriting",
+      color: "#C8651A",
+      bg: "rgba(200,101,26,0.1)",
       items: [
         {
-          role: "New Media Operations (Volunteer)",
-          company: "Anhui 1054 Rescue Team",
-          period: "Apr 2023 – Present",
-          location: "",
-          points: [
-            'Content Operations: Planned short-video topics and wrote scripts based on platform trends and audience interests. Produced content centered on the team\'s core image of "timely rescue," "comprehensive support," and "human warmth."',
-            "Video Production: Responsible for short-video editing and post-production, with 30+ videos completed in total. Overall videos over 15,000+ views.",
-          ],
+          title: "On Staying Curious",
+          desc: "Essay on intellectual curiosity and brand storytelling, published in a digital culture magazine.",
+          quote:
+            "Curiosity doesn't kill the cat — it gives the cat a story worth telling.",
+          type: "essay",
         },
         {
-          role: "Account Executive Intern",
-          company: "Chunbo Culture Communication Company",
-          period: "Mar 2022 – May 2022",
-          location: "Advertising Agency",
-          points: [
-            "Project Support: Assisted in preparing pitch materials and proposal documents for brand campaigns, and participated in developing brand advertising and communication strategies.",
-            "Project Coordination: Liaised with clients and internal design teams, coordinated project resources and tracked execution progress, supporting the successful delivery of 5+ brand marketing projects.",
-            "Brand Marketing Projects: Participated in the execution of multiple brand campaigns, including the launch of Centrum Overseas Flagship Store on Tmall, the Centrum 618 Shopping Festival campaign, Caltrate JD Brand Day campaign, and an H5 interactive advertising project.",
-          ],
-        },
-        {
-          role: "Content Production",
-          company: "Yuanyouhui Photography Studio",
-          period: "Jun 2020 – Aug 2020",
-          location: "",
-          points: [
-            "Content Creativity: Independently designed creative shooting scenes and carried out photography work, participating in 10+ shooting projects in total.",
-            "Project Execution: Took on private photography projects and completed post-production work. For the Chinese Classics Recitation Video Competition project at Chuzhou Middle School in Anhui Province, the work won Second Prize among 1,000+ submissions.",
-          ],
-        },
-        {
-          role: "Livestream Assistant Intern",
-          company: "Beauty Retail Store",
-          period: "Jan 2020 – Mar 2020",
-          location: "",
-          points: [
-            "Livestream Operations: Responsible for livestream preparation and product script writing, and assisted with livestream promotional activities. Average viewership reached 5,000+ per session.",
-            "Content Distribution: Edited highlight clips from livestreams and published them on social media platforms to support secondary content distribution.",
-            "User Operations: Built customer communities and tracked user feedback, maintaining relationships with 100+ customers and supporting repeat purchases and conversion.",
-          ],
+          title: "Launch Day — Campaign Copy",
+          desc: "Tagline and campaign copy for a footwear brand's limited-edition collection launch.",
+          quote: "You don't need a map for a road no one else has walked.",
+          type: "campaign",
         },
       ],
-      edu: "Education",
-      eduDetail:
-        "BA Advertising — Shanghai Business School\nMA Society, Culture & Media — University of Leeds, UK",
     },
+    {
+      name: "Video Content",
+      color: "#B0436E",
+      bg: "rgba(176,67,110,0.1)",
+      items: [
+        {
+          title: "Between Spaces",
+          desc: "7-minute short documentary about young artists navigating creative work in a hyper-digital world. Screened at two film festivals.",
+          type: "documentary",
+        },
+        {
+          title: "Brand Film — Nova Coffee",
+          desc: "90-second brand story film combining handheld cinematography with narration to communicate authentic identity.",
+          type: "branded",
+        },
+      ],
+    },
+  ],
+  request: "Available on request",
+},
+cv: {
+  label: "Experience",
+  heading: "Internship\nexperience.",
+  items: [
+    {
+      role: "New Media Operations (Volunteer)",
+      company: "Anhui 1054 Rescue Team",
+      period: "Apr 2023 – Present",
+      location: "",
+      points: [
+        'Content Operations: Planned short-video topics and wrote scripts based on platform trends and audience interests. Produced content centered on the team\'s core image of "timely rescue," "comprehensive support," and "human warmth."',
+        "Video Production: Responsible for short-video editing and post-production, with 30+ videos completed in total. Overall videos over 15,000+ views.",
+      ],
+    },
+    {
+      role: "Account Executive Intern",
+      company: "Chunbo Culture Communication Company",
+      period: "Mar 2022 – May 2022",
+      location: "Advertising Agency",
+      points: [
+        "Project Support: Assisted in preparing pitch materials and proposal documents for brand campaigns, and participated in developing brand advertising and communication strategies.",
+        "Project Coordination: Liaised with clients and internal design teams, coordinated project resources and tracked execution progress, supporting the successful delivery of 5+ brand marketing projects.",
+        "Brand Marketing Projects: Participated in the execution of multiple brand campaigns, including the launch of Centrum Overseas Flagship Store on Tmall, the Centrum 618 Shopping Festival campaign, Caltrate JD Brand Day campaign, and an H5 interactive advertising project.",
+      ],
+    },
+    {
+      role: "Content Production",
+      company: "Yuanyouhui Photography Studio",
+      period: "Jun 2020 – Aug 2020",
+      location: "",
+      points: [
+        "Content Creativity: Independently designed creative shooting scenes and carried out photography work, participating in 10+ shooting projects in total.",
+        "Project Execution: Took on private photography projects and completed post-production work. For the Chinese Classics Recitation Video Competition project at Chuzhou Middle School in Anhui Province, the work won Second Prize among 1,000+ submissions.",
+      ],
+    },
+    {
+      role: "Livestream Assistant Intern",
+      company: "Beauty Retail Store",
+      period: "Jan 2020 – Mar 2020",
+      location: "",
+      points: [
+        "Livestream Operations: Responsible for livestream preparation and product script writing, and assisted with livestream promotional activities. Average viewership reached 5,000+ per session.",
+        "Content Distribution: Edited highlight clips from livestreams and published them on social media platforms to support secondary content distribution.",
+        "User Operations: Built customer communities and tracked user feedback, maintaining relationships with 100+ customers and supporting repeat purchases and conversion.",
+      ],
+    },
+  ],
+  edu: "Education",
+  eduDetail:
+    "BA Advertising — Shanghai Business School\nMA Society, Culture & Media — University of Leeds, UK",
+},
 contact: {
   label: "Contact",
   heading: "Let's work\ntogether.",
@@ -370,9 +369,9 @@ contact: {
     send: "Send Message →",
     sent: "Message sent.",
     sentSub: "Thank you — I'll be in touch soon.",
-      },
-    },
-    footer: "© 2026 Wufan Chen",
+  },
+},
+footer: "© 2026 Wufan Chen",
   },
   zh: {
     nav: ["关于我", "实习经历", "品牌策划", "创意作品", "联系方式"],
@@ -395,7 +394,7 @@ contact: {
     ],
     about: {
       label: "关于我",
-      photoLabel: "在此添加照片",
+      photoLabel: "image/zjz.JPG",
       stats: [
         { n: "4", l: "实习经历" },
         { n: "10+", l: "项目案例" },
@@ -1213,11 +1212,11 @@ function CreativeItemCard({
         : isVideo || item.type === "branded"
           ? "Add Video"
           : "Add Image"
-      : item.type === "essay" || item.type === "campaign"
-        ? "添加文本"
-        : isVideo || item.type === "branded"
-          ? "添加r��频"
-          : "添加图片";
+   : item.type === "essay" || item.type === "campaign"
+  ? "添加文本"
+  : isVideo || item.type === "branded"
+    ? "添加视频"
+    : "添加图片";
   return (
     <GlassCard
       style={{
