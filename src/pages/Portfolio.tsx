@@ -285,13 +285,13 @@ creative: {
       title: "Blossoming Flower",
       desc: "A short video that condenses the slow blooming process of flowers through editing, paired with rhythmic music to highlight the beauty and vitality of life.",
       type: "experimental",
-     video: "https://www.youtube.com/embed/cAprCSuh1j4",
+      video: "https://www.youtube.com/embed/WxWTrKI_zSk",
     },
    {
   title: "Silky Hair Shampoo Ad",
   desc: "A humorous and unconventional brand film that blends horror elements with beauty storytelling, highlighting the transformation from dry, frizzy hair to smooth and silky texture.",
   type: "branded",
-video: "https://www.youtube.com/embed/WxWTrKI_zSk",
+  video: "https://www.youtube.com/embed/cAprCSuh1j4",
 }
   ],
 }
