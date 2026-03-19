@@ -285,7 +285,7 @@ creative: {
       title: "Blossoming Flower",
       desc: "A short video that condenses the slow blooming process of flowers through editing, paired with rhythmic music to highlight the beauty and vitality of life.",
       type: "experimental",
-      video: "https://www.youtube.com/embed/_6Pmknyansc"
+      video: "https://www.youtube.com/embed/cAprCSuh1j4"
     },
     {
       title: "Brand Film — Nova Coffee",
@@ -647,7 +647,7 @@ projectDetail: {
   title: "绽放的花",
   desc: "通过剪辑手法，将花朵缓慢绽放的过程浓缩于短片之中，配合富有节奏感的音乐，突出生命盛放的力量与美感。",
   type: "branded",
-  video: "https://www.youtube.com/embed/_6Pmknyansc",
+  video: "https://www.youtube.com/embed/cAprCSuh1j4",
  },
   {
               title: "品牌影片 — Nova 咖啡",
