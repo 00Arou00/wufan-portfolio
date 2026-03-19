@@ -277,22 +277,23 @@ creative: {
       ],
     },
     {
-      name: "Video Content",
-      color: "#B0436E",
-      bg: "rgba(176,67,110,0.1)",
-      items: [
-        {
-          title: "Between Spaces",
-          desc: "7-minute short documentary about young artists navigating creative work in a hyper-digital world. Screened at two film festivals.",
-          type: "documentary",
-        },
-        {
-          title: "Brand Film — Nova Coffee",
-          desc: "90-second brand story film combining handheld cinematography with narration to communicate authentic identity.",
-          type: "branded",
-        },
-      ],
+  name: "Video Content",
+  color: "#B0436E",
+  bg: "rgba(176,67,110,0.1)",
+  items: [
+     {
+      title: "Blossoming Flower",
+      desc: "A short video that condenses the slow blooming process of flowers through editing, paired with rhythmic music to highlight the beauty and vitality of life.",
+      type: "experimental",
+      video: "https://www.youtube.com/embed/_6Pmknyansc"
     },
+    {
+      title: "Brand Film — Nova Coffee",
+      desc: "90-second brand story film combining handheld cinematography with narration to communicate authentic identity.",
+      type: "branded",
+    },
+  ],
+}
   ],
   request: "Available on request",
 },
@@ -642,11 +643,12 @@ projectDetail: {
           color: "#B0436E",
           bg: "rgba(176,67,110,0.1)",
           items: [
-            {
-              title: "空间之间",
-              desc: "一部 7 分钟短篇纪录片，记录年轻艺术家在超数字时代中的创作生存状态，入围两场独立影展。",
-              type: "documentary",
-            },
+           {
+  title: "绽放的花",
+  desc: "通过剪辑手法，将花朵缓慢绽放的过程浓缩于短片之中，配合富有节奏感的音乐，突出生命盛放的力量与美感。",
+  type: "branded",
+  video: "https://www.youtube.com/embed/_6Pmknyansc",
+}
             {
               title: "品牌影片 — Nova 咖啡",
               desc: "90 秒品牌故事影片，结合手持纪实摄影与旁白叙述，传递品牌的真实气质。",
@@ -1190,7 +1192,13 @@ type CatType = {
   name: string;
   color: string;
   bg: string;
-  items: Array<{ title: string; desc: string; quote?: string; type: string }>;
+  items: Array<{
+    title: string;
+    desc: string;
+    quote?: string;
+    type: string;
+    video?: string;
+  }>;
 };
 function CreativeItemCard({
   item,
@@ -1232,45 +1240,66 @@ function CreativeItemCard({
       onMouseEnter={() => setHov(true)}
       onMouseLeave={() => setHov(false)}
     >
-      {item.type !== "essay" && item.type !== "campaign" && (
+{item.type !== "essay" && item.type !== "campaign" && (
+  <div
+    style={{
+      aspectRatio: isVideo ? "16/9" : "3/2",
+      background: hov
+        ? cat.bg
+        : "linear-gradient(135deg, rgba(240,240,245,0.85) 0%, rgba(232,232,240,0.85) 100%)",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "center",
+      gap: "0.625rem",
+      transition: "background 0.35s ease",
+      borderBottom: "1px solid rgba(200,205,225,0.18)",
+      overflow: "hidden",
+    }}
+  >
+    {isVideo && item.video ? (
+      <iframe
+        width="100%"
+        height="100%"
+        src={item.video}
+        title={item.title}
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+        style={{
+          width: "100%",
+          height: "100%",
+          border: "none",
+          display: "block",
+        }}
+      />
+    ) : (
+      <>
         <div
           style={{
-            aspectRatio: isVideo ? "16/9" : "3/2",
-            background: hov
-              ? cat.bg
-              : "linear-gradient(135deg, rgba(240,240,245,0.85) 0%, rgba(232,232,240,0.85) 100%)",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: "0.625rem",
-            transition: "background 0.35s ease",
-            borderBottom: "1px solid rgba(200,205,225,0.18)",
+            color: hov ? cat.color : "#CCCCCC",
+            transition: "color 0.3s, transform 0.3s",
+            transform: hov ? "scale(1.12)" : "scale(1)",
           }}
         >
-          <div
-            style={{
-              color: hov ? cat.color : "#CCCCCC",
-              transition: "color 0.3s, transform 0.3s",
-              transform: hov ? "scale(1.12)" : "scale(1)",
-            }}
-          >
-            {ICONS[item.type] ?? ICONS.photo}
-          </div>
-          <span
-            style={{
-              fontSize: 9.5,
-              letterSpacing: "0.18em",
-              textTransform: "uppercase",
-              fontWeight: 700,
-              color: hov ? cat.color : "#D0D0D0",
-              transition: "color 0.3s",
-            }}
-          >
-            {typeLabel}
-          </span>
+          {ICONS[item.type] ?? ICONS.photo}
         </div>
-      )}
+        <span
+          style={{
+            fontSize: 9.5,
+            letterSpacing: "0.18em",
+            textTransform: "uppercase",
+            fontWeight: 700,
+            color: hov ? cat.color : "#D0D0D0",
+            transition: "color 0.3s",
+          }}
+        >
+          {typeLabel}
+        </span>
+      </>
+    )}
+  </div>
+)}
       <div style={{ padding: "1.5rem 1.625rem" }}>
         <div
           style={{
