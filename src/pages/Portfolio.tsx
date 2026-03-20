@@ -366,15 +366,23 @@ contact: {
   label: "Contact",
   heading: "Let's work\ntogether.",
   sub: "Open to internship opportunities, freelance projects, and creative collaborations. I'd love to hear what you're building.",
-  links: [
-    {
-      label: "Email",
-      value: "arouchan666@gmail.com",
-      href: "mailto:arouchan666@gmail.com",
-    },
-    { label: "LinkedIn", value: "Wufan Chen", href: "#" },
-    { label: "Instagram", value: "@wufan.creates", href: "#" },
-  ],
+links: [
+  {
+    label: "Email",
+    value: "arouchan666@gmail.com",
+    href: "mailto:arouchan666@gmail.com",
+  },
+  {
+    label: "LinkedIn",
+    value: "Wufan Chen",
+    href: "https://www.linkedin.com/in/wufan-chen-ba5a333b8",
+  },
+  {
+    label: "WhatsApp",
+    value: "+44 7789 069040",
+    href: "https://wa.me/447789069040",
+  },
+],
   available: "Available for new opportunities",
   form: {
     name: "Name",
@@ -749,8 +757,8 @@ video: "https://player.bilibili.com/player.html?bvid=BV1fJAVzoE6b&page=1&autopla
           value: "arouchan666@gmail.com",
           href: "mailto:arouchan666@gmail.com",
         },
-        { label: "LinkedIn", value: "陈吴凡", href: "#" },
-        { label: "Instagram", value: "@wufan.creates", href: "#" },
+        { label: "微信", value: "19921943963", href: "#" },
+        { label: "电话", value: "19921943963", href: "#" },
       ],
       available: "欢迎新机会与合作",
       form: {
@@ -3271,7 +3279,13 @@ export default function Portfolio() {
               </p>
               <div>
                 {t.contact.links.map((l) => (
-                  <a key={l.label} href={l.href} className="cl">
+                <a
+  key={l.label}
+  href={l.href}
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ ... }}
+>
                     <span
                       style={{
                         fontSize: 9.5,
