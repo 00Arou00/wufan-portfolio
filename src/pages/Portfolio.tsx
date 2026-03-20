@@ -260,21 +260,34 @@ creative: {
       name: "Copywriting",
       color: "#C8651A",
       bg: "rgba(200,101,26,0.1)",
-      items: [
-        {
-          title: "On Staying Curious",
-          desc: "Essay on intellectual curiosity and brand storytelling, published in a digital culture magazine.",
-          quote:
-            "Curiosity doesn't kill the cat — it gives the cat a story worth telling.",
-          type: "essay",
-        },
-        {
-          title: "Launch Day — Campaign Copy",
-          desc: "Tagline and campaign copy for a footwear brand's limited-edition collection launch.",
-          quote: "You don't need a map for a road no one else has walked.",
-          type: "campaign",
-        },
-      ],
+items: [
+  {
+    title: "1054 Rescue Team Campaign Copy｜Folk Festival Event",
+    desc: `Walking for peace on the 16th day of the Lunar New Year — with 1054 by your side.`,
+    type: "essay",
+  },
+  {
+    title: "1054 Rescue Team Campaign Copy｜International Women's Day",
+    desc: `Women are not roles to be defined — they are forces in action.
+More than just March 8th,
+1054 Rescue Team
+honors every woman who protects and safeguards others, every single day.`,
+    type: "essay",
+  },
+  {
+    title: "1054 Rescue Team Campaign Copy｜Summer Water Safety Campaign",
+    desc: `1054 Rescue Team wishes every child:
+Grow bravely toward the sun.`,
+    type: "essay",
+  },
+  {
+    title: "1054 Rescue Team Campaign Copy｜Gaokao Support Campaign",
+    desc: `To every student taking the Gaokao:
+When the pen is set down, your sharpness has been fully expressed.
+When the blade is sheathed, success has already arrived.`,
+    type: "essay",
+  },
+],
     },
     {
   name: "Video Content",
@@ -620,25 +633,39 @@ projectDetail: {
       label: "创意作品",
       heading: "文案、图片\n与视频。",
       cats: [
-        {
-          name: "文案创作",
-          color: "#C8651A",
-          bg: "rgba(200,101,26,0.1)",
-          items: [
-            {
-              title: "论保持好奇心",
-              desc: "关于好奇心与品牌叙事的深度文章，发表于数字文化杂志。",
-              quote: "好奇心不会害死猫，它只会给猫一个值得讲述的故事。",
-              type: "essay",
-            },
-            {
-              title: "首发日 — 活动文案",
-              desc: "为某鞋类品牌限量系列发布会撰写的主题口号及活动文案。",
-              quote: "你不需要地图，走一条没人走过的路。",
-              type: "campaign",
-            },
-          ],
-        },
+{
+  name: "文案创作",
+  color: "#C8651A",
+  bg: "rgba(200,101,26,0.1)",
+  items: [
+    {
+      title: "1054志愿者救援队宣传文案｜民俗活动",
+      desc: `正月十六走太平，1054伴你行。`,
+      type: "essay",
+    },
+    {
+      title: "1054志愿者救援队宣传文案｜三八妇女节",
+      desc: `女性不是被定义的角色，她们是行动中的力量。
+不止3.8妇女节，
+1054救援队
+时刻致敬每一位守护安全的她。`,
+      type: "essay",
+    },
+    {
+      title: "1054志愿者救援队宣传文案｜暑期防溺水知识宣讲活动",
+      desc: `1054救援队祝小朋友们，
+向着太阳，勇敢长大。`,
+      type: "essay",
+    },
+    {
+      title: "1054志愿者救援队宣传文案｜高考保障活动",
+      desc: `1054救援队祝高考考生，
+落笔合盖锋芒尽，
+收刀入鞘成功时。`,
+      type: "essay",
+    },
+  ],
+},
         {
           name: "视频内容",
           color: "#B0436E",
@@ -1340,9 +1367,16 @@ function CreativeItemCard({
             "{item.quote}"
           </p>
         )}
-        <p style={{ fontSize: "0.82rem", color: "#999", lineHeight: 1.78 }}>
-          {item.desc}
-        </p>
+     <p
+  style={{
+    fontSize: "0.82rem",
+    color: "#999",
+    lineHeight: 1.78,
+    whiteSpace: "pre-line",
+  }}
+>
+  {item.desc}
+</p>
         <p
           style={{
             fontSize: "0.72rem",
