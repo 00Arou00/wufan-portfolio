@@ -3239,74 +3239,79 @@ export default function Portfolio() {
             zIndex: 1,
           }}
         >
-          <Fade>
-            <div>
-              <span
-                style={{
-                  fontSize: 10,
-                  letterSpacing: "0.26em",
-                  color: "#C0C0CC",
-                  textTransform: "uppercase",
-                  fontWeight: 700,
-                  display: "block",
-                  marginBottom: "1rem",
-                }}
-              >
-                {t.contact.label}
-              </span>
-              <h2
-                style={{
-                  fontSize: "clamp(1.875rem,3.5vw,2.625rem)",
-                  fontWeight: 800,
-                  letterSpacing: "-0.03em",
-                  color: "#333",
-                  lineHeight: 1.1,
-                  marginBottom: "1.5rem",
-                  whiteSpace: "pre-line",
-                }}
-              >
-                {t.contact.heading}
-              </h2>
-              <p
-                style={{
-                  fontSize: "1rem",
-                  color: "#777",
-                  lineHeight: 1.88,
-                  marginBottom: "2.75rem",
-                }}
-              >
-{t.contact.links.map((l) => (
-  <a
-    key={l.label}
-    href={l.href}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="cl"
-  >
+<Fade>
+  <div>
     <span
       style={{
-        fontSize: 9.5,
-        color: "#CCCCCC",
-        letterSpacing: "0.18em",
+        fontSize: 10,
+        letterSpacing: "0.26em",
+        color: "#C0C0CC",
         textTransform: "uppercase",
         fontWeight: 700,
-        minWidth: 80,
+        display: "block",
+        marginBottom: "1rem",
       }}
     >
-                      {l.label}
-                    </span>
-                    {l.value}
-                  </a>
-                ))}
-              </div>
-              <div
-                style={{
-                  marginTop: "2.25rem",
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "0.625rem",
-                }}
-              >
+      {t.contact.label}
+    </span>
+    <h2
+      style={{
+        fontSize: "clamp(1.875rem,3.5vw,2.625rem)",
+        fontWeight: 800,
+        letterSpacing: "-0.03em",
+        color: "#333",
+        lineHeight: 1.1,
+        marginBottom: "1.5rem",
+        whiteSpace: "pre-line",
+      }}
+    >
+      {t.contact.heading}
+    </h2>
+    <p
+      style={{
+        fontSize: "1rem",
+        color: "#777",
+        lineHeight: 1.88,
+        marginBottom: "2.75rem",
+      }}
+    >
+      {t.contact.sub}
+    </p>
+
+    <div>
+      {t.contact.links.map((l) => (
+        <a
+          key={l.label}
+          href={l.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cl"
+        >
+          <span
+            style={{
+              fontSize: 9.5,
+              color: "#CCCCCC",
+              letterSpacing: "0.18em",
+              textTransform: "uppercase",
+              fontWeight: 700,
+              minWidth: 80,
+            }}
+          >
+            {l.label}
+          </span>
+          {l.value}
+        </a>
+      ))}
+    </div>
+
+    <div
+      style={{
+        marginTop: "2.25rem",
+        display: "flex",
+        alignItems: "center",
+        gap: "0.625rem",
+      }}
+    >
                 <div
                   style={{
                     width: 8,
