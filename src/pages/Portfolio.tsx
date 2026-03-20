@@ -3275,27 +3275,24 @@ export default function Portfolio() {
                   marginBottom: "2.75rem",
                 }}
               >
-                {t.contact.sub}
-              </p>
-              <div>
-                {t.contact.links.map((l) => (
-                <a
-  key={l.label}
-  href={l.href}
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{ ... }}
->
-                    <span
-                      style={{
-                        fontSize: 9.5,
-                        color: "#CCCCCC",
-                        letterSpacing: "0.18em",
-                        textTransform: "uppercase",
-                        fontWeight: 700,
-                        minWidth: 80,
-                      }}
-                    >
+{t.contact.links.map((l) => (
+  <a
+    key={l.label}
+    href={l.href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cl"
+  >
+    <span
+      style={{
+        fontSize: 9.5,
+        color: "#CCCCCC",
+        letterSpacing: "0.18em",
+        textTransform: "uppercase",
+        fontWeight: 700,
+        minWidth: 80,
+      }}
+    >
                       {l.label}
                     </span>
                     {l.value}
