@@ -973,6 +973,55 @@ function WaveLine({
   );
 }
 
+function FlowerLine({
+  x,
+  y,
+  size = 120,
+  color = "rgba(160,170,200,0.18)",
+  delay = 0,
+  rotate = 0,
+}: {
+  x: string;
+  y: string;
+  size?: number;
+  color?: string;
+  delay?: number;
+  rotate?: number;
+}) {
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: x,
+        top: y,
+        pointerEvents: "none",
+        zIndex: 0,
+        transform: `rotate(${rotate}deg)`,
+        transformOrigin: "50% 85%",
+      }}
+    >
+      <svg
+        style={{
+          animation: `flowerFloat 7s ease-in-out ${delay}s infinite`,
+          transformOrigin: "50% 85%",
+        }}
+        width={size}
+        height={size}
+        viewBox="0 0 100 100"
+        fill="none"
+      >
+        <circle cx="50" cy="50" r="6" stroke={color} strokeWidth="1.2" />
+        <path d="M50 30 Q60 40 50 50 Q40 40 50 30" stroke={color} strokeWidth="1.2" />
+        <path d="M50 70 Q60 60 50 50 Q40 60 50 70" stroke={color} strokeWidth="1.2" />
+        <path d="M30 50 Q40 40 50 50 Q40 60 30 50" stroke={color} strokeWidth="1.2" />
+        <path d="M70 50 Q60 40 50 50 Q60 60 70 50" stroke={color} strokeWidth="1.2" />
+        <path d="M50 56 Q48 75 52 95" stroke={color} strokeWidth="1.2" strokeLinecap="round" />
+        <path d="M50 70 Q65 75 55 85" stroke={color} strokeWidth="1.2" strokeLinecap="round" />
+        <path d="M50 75 Q35 80 45 90" stroke={color} strokeWidth="1.2" strokeLinecap="round" />
+      </svg>
+    </div>
+  );
+}
 /* ─────────────────────────────────────────────
    GLASS CARD
 ───────────────────────────────────────────── */
@@ -1877,6 +1926,23 @@ export default function Portfolio() {
           .sr { gap: 1.75rem !important; }
           .pg { grid-template-columns: 1fr !important; }
         }
+@keyframes flowerFloat {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-4px) rotate(1.2deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-4px) rotate(-1.2deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}        
       `}</style>
 
       {/* ═══════════════ NAV ═══════════════ */}
@@ -2176,6 +2242,24 @@ export default function Portfolio() {
           rows={4}
           color="rgba(195,232,195,0.16)"
         />
+{/* Flower lines */}
+<FlowerLine
+  x="82%"
+  y="18%"
+  size={140}
+  delay={0}
+  rotate={8}
+  color="rgba(163,201,255,0.18)"
+/>
+
+<FlowerLine
+  x="6%"
+  y="72%"
+  size={110}
+  delay={1.6}
+  rotate={-10}
+  color="rgba(224,195,240,0.16)"
+/>
         {/* Ghost letter */}
         <div
           style={{
