@@ -260,66 +260,67 @@ creative: {
       name: "Copywriting",
       color: "#C8651A",
       bg: "rgba(200,101,26,0.1)",
-items: [
-  {
-    title: "1054 Rescue Team Campaign Copy｜Folk Festival Event",
-    desc: `Walking for peace on the 16th day of the Lunar New Year — with 1054 by your side.`,
-    type: "essay",
-  },
-  {
-    title: "1054 Rescue Team Campaign Copy｜International Women's Day",
-    desc: `Women are not roles to be defined — they are forces in action.
+      items: [
+        {
+          title: "1054 Rescue Team Campaign Copy｜Folk Festival Event",
+          desc: `Walking for peace on the 16th day of the Lunar New Year — with 1054 by your side.`,
+          type: "essay",
+        },
+        {
+          title: "1054 Rescue Team Campaign Copy｜International Women's Day",
+          desc: `Women are not roles to be defined — they are forces in action.
 More than just March 8th,
 1054 Rescue Team
 honors every woman who protects and safeguards others, every single day.`,
-    type: "essay",
-  },
-  {
-    title: "1054 Rescue Team Campaign Copy｜Summer Water Safety Campaign",
-    desc: `1054 Rescue Team wishes every child:
+          type: "essay",
+        },
+        {
+          title: "1054 Rescue Team Campaign Copy｜Summer Water Safety Campaign",
+          desc: `1054 Rescue Team wishes every child:
 Grow bravely toward the sun.`,
-    type: "essay",
-  },
-  {
-    title: "1054 Rescue Team Campaign Copy｜Gaokao Support Campaign",
-    desc: `To every student taking the Gaokao:
+          type: "essay",
+        },
+        {
+          title: "1054 Rescue Team Campaign Copy｜Gaokao Support Campaign",
+          desc: `To every student taking the Gaokao:
 When the pen is set down, your sharpness has been fully expressed.
 When the blade is sheathed, success has already arrived.`,
-    type: "essay",
-  },
-],
-    },
-     {
-  name: "Video Content",
-  color: "#B0436E",
-  bg: "rgba(176,67,110,0.1)",
-  items: [
-    {
-      title: "Blossoming Flower",
-      desc: "A short video that condenses the slow blooming process of flowers through editing, paired with rhythmic music to highlight the beauty and vitality of life.",
-      type: "motion",
-      video: "https://www.youtube.com/embed/WxWTrKI_zSk",
+          type: "essay",
+        },
+      ],
     },
     {
-      title: "Silky Hair Shampoo Ad",
-      desc: "A humorous and unconventional brand film that blends horror elements with beauty storytelling, highlighting the transformation from dry, frizzy hair to smooth and silky texture.",
-      type: "branded",
-      video: "https://www.youtube.com/embed/cAprCSuh1j4",
-    },
-    {
-      title: "Third Video Title",
-      desc: "Description of the third video.",
-      type: "branded",
-      video: "https://www.youtube.com/embed/第三个视频ID",
-    },
-    {
-      title: "Fourth Video Title",
-      desc: "Description of the fourth video.",
-      type: "documentary",
-      video: "https://www.youtube.com/embed/第四个视频ID",
+      name: "Video Content",
+      color: "#B0436E",
+      bg: "rgba(176,67,110,0.1)",
+      items: [
+        {
+          title: "Blossoming Flower",
+          desc: "A short video that condenses the slow blooming process of flowers through editing, paired with rhythmic music to highlight the beauty and vitality of life.",
+          type: "motion",
+          video: "https://www.youtube.com/embed/WxWTrKI_zSk",
+        },
+        {
+          title: "Silky Hair Shampoo Ad",
+          desc: "A humorous and unconventional brand film that blends horror elements with beauty storytelling, highlighting the transformation from dry, frizzy hair to smooth and silky texture.",
+          type: "branded",
+          video: "https://www.youtube.com/embed/cAprCSuh1j4",
+        },
+        {
+          title: "Third Video Title",
+          desc: "Description of the third video.",
+          type: "branded",
+          video: "https://www.youtube.com/embed/第三个视频ID",
+        },
+        {
+          title: "Fourth Video Title",
+          desc: "Description of the fourth video.",
+          type: "documentary",
+          video: "https://www.youtube.com/embed/第四个视频ID",
+        },
+      ],
     },
   ],
-}
   request: "Available on request",
 },
 cv: {
