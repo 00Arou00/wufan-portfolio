@@ -289,38 +289,37 @@ When the blade is sheathed, success has already arrived.`,
   },
 ],
     },
-    {
+     {
   name: "Video Content",
   color: "#B0436E",
   bg: "rgba(176,67,110,0.1)",
   items: [
-     {
+    {
       title: "Blossoming Flower",
       desc: "A short video that condenses the slow blooming process of flowers through editing, paired with rhythmic music to highlight the beauty and vitality of life.",
-      type: "experimental",
+      type: "motion",
       video: "https://www.youtube.com/embed/WxWTrKI_zSk",
     },
-   {
-  title: "Silky Hair Shampoo Ad",
-  desc: "A humorous and unconventional brand film that blends horror elements with beauty storytelling, highlighting the transformation from dry, frizzy hair to smooth and silky texture.",
-  type: "branded",
-  video: "https://www.youtube.com/embed/cAprCSuh1j4",
-}
     {
-      title: "第三个视频标题",
-      desc: "这里写第三个视频的简介。",
+      title: "Silky Hair Shampoo Ad",
+      desc: "A humorous and unconventional brand film that blends horror elements with beauty storytelling, highlighting the transformation from dry, frizzy hair to smooth and silky texture.",
+      type: "branded",
+      video: "https://www.youtube.com/embed/cAprCSuh1j4",
+    },
+    {
+      title: "Third Video Title",
+      desc: "Description of the third video.",
       type: "branded",
       video: "https://www.youtube.com/embed/第三个视频ID",
-    },  
-      {
-      title: "第四个视频标题",
-      desc: "这里写第四个视频的简介。",
+    },
+    {
+      title: "Fourth Video Title",
+      desc: "Description of the fourth video.",
       type: "documentary",
       video: "https://www.youtube.com/embed/第四个视频ID",
     },
   ],
 }
-  ],
   request: "Available on request",
 },
 cv: {
