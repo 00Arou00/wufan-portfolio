@@ -306,6 +306,18 @@ When the blade is sheathed, success has already arrived.`,
   type: "branded",
   video: "https://www.youtube.com/embed/cAprCSuh1j4",
 }
+    {
+      title: "第三个视频标题",
+      desc: "这里写第三个视频的简介。",
+      type: "branded",
+      video: "https://www.youtube.com/embed/第三个视频ID",
+    },  
+      {
+      title: "第四个视频标题",
+      desc: "这里写第四个视频的简介。",
+      type: "documentary",
+      video: "https://www.youtube.com/embed/第四个视频ID",
+    },
   ],
 }
   ],
@@ -691,6 +703,18 @@ video: "https://player.bilibili.com/player.html?bvid=BV1fJAVzoE4f&page=1&autopla
   type: "branded",
 video: "https://player.bilibili.com/player.html?bvid=BV1fJAVzoE6b&page=1&autoplay=0",
 },
+ {
+      title: "第三个视频标题",
+      desc: "这里写第三个视频简介。",
+      type: "branded",
+      video: "https://www.youtube.com/embed/第三个视频ID",
+    },
+         {
+      title: "第四个视频标题",
+      desc: "这里写第四个视频简介。",
+      type: "documentary",
+      video: "https://www.youtube.com/embed/第四个视频ID",
+    },     
           ],
         },
       ],
